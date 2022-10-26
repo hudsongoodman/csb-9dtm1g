@@ -1,0 +1,43 @@
+body {
+  background: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  color: white;
+  margin: 0px;
+}
+.subtitle {
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+}
+.header {
+  width: 100vw;
+  height: 100px;
+  background: red;
+  display: flex;
+  margin: -8px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.directorybuttons {
+  height: 50px;
+  background: blue;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.directorybuttons > button {
+  margin: 10px;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
